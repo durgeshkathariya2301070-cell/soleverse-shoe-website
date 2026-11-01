@@ -1,0 +1,82 @@
+SOLEVERSE product photography
+
+The sneaker photographs in this folder are downloaded from Unsplash's image CDN and
+used under the Unsplash License: https://unsplash.com/license
+The Unsplash License allows free commercial and non-commercial use; attribution is
+appreciated but not required. Brand marks visible in a photograph are not endorsements.
+
+Downloaded image source IDs:
+
+aero-runner-red.jpg             photo-1542291026-7eec264c27ff
+everyday-sneaker-white.jpg      photo-1595950653106-6c9ebd614d3a
+basketball-high-top.jpg         photo-1600185365926-3a2ce3cdb9eb
+training-knit-runner.jpg        photo-1491553895911-0055eca6402d
+retro-court-sneaker.jpg         photo-1549298916-b41d501d3772
+lightweight-running-shoe.jpg    photo-1539185441755-769473a23570
+basketball-court-low.jpg        photo-1460353581641-37baddab0fa2
+flex-trainer.jpg                photo-1608231387042-66d1773070a5
+skate-low-top.jpg               photo-1552346154-21d32810aba3
+trail-runner.jpg                photo-1606107557195-0e29a4b5b4aa
+street-court-sneaker.jpg        photo-1556906781-9a412961c28c
+court-sneaker-detail.jpg        photo-1600185365483-26d7a4cc7519
+canvas-sneaker.jpg              photo-1525966222134-fcfa99b8ae77
+
+Each source was fetched as a local JPEG from:
+https://images.unsplash.com/photo-{source-id}?auto=format&fit=crop&q=82&w=1000&h=1200
+
+Additional locally stored product photography (Wikimedia Commons)
+
+football-boots-gola.jpg
+  "Gola Speedster soccer shoes 20200501 001.jpg" by Methem (Mikko J. Putkonen)
+  CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+  Source: https://commons.wikimedia.org/wiki/File:Gola_Speedster_soccer_shoes_20200501_001.jpg
+
+football-boots-inzaghi.jpg
+  "Boots of Filippo Inzaghi.jpg" by Дмитрий Кошелев
+  CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+  Source: https://commons.wikimedia.org/wiki/File:Boots_of_Filippo_Inzaghi.jpg
+
+football-boots-baggio.jpg
+  "Boots of Roberto Baggio.jpg" by Дмитрий Кошелев
+  CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+  Source: https://commons.wikimedia.org/wiki/File:Boots_of_Roberto_Baggio.jpg
+
+football-boots-nivia.jpg
+  "NIVIA Ashtang Gold.jpg" by Raavimohantydelhi
+  CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+  Source: https://commons.wikimedia.org/wiki/File:NIVIA_Ashtang_Gold.jpg
+
+formal-dress-shoe-01.jpg through formal-dress-shoe-04.jpg
+  "Crockett & Jones men's dress shoes, type Dalton, black calf leather"
+  by OlafJanssen; each view is licensed CC BY-SA 3.0.
+  License: https://creativecommons.org/licenses/by-sa/3.0/
+  Sources:
+  https://commons.wikimedia.org/wiki/File:Crockett_%26_Jones_men%27s_dress_shoes,_type_Dalton,_black_calf_leather_01.JPG
+  https://commons.wikimedia.org/wiki/File:Crockett_%26_Jones_men%27s_dress_shoes,_type_Dalton,_black_calf_leather_02.JPG
+  https://commons.wikimedia.org/wiki/File:Crockett_%26_Jones_men%27s_dress_shoes,_type_Dalton,_black_calf_leather_03.JPG
+  https://commons.wikimedia.org/wiki/File:Crockett_%26_Jones_men%27s_dress_shoes,_type_Dalton,_black_calf_leather_04.JPG
+
+trail-runner-altra.jpg
+  "Altra trail running shoe, Lone Peak, side view.jpg" by IceCreamForEveryone
+  CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+  Source: https://commons.wikimedia.org/wiki/File:Altra_trail_running_shoe,_Lone_Peak,_side_view.jpg
+
+trail-runner-merrell.jpg
+  "Merrell All Out Crush Light.jpg" by Tiia Monto
+  CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+  Source: https://commons.wikimedia.org/wiki/File:Merrell_All_Out_Crush_Light.jpg
+
+trail-runner-mizuno.jpg
+  "Mizuno Wave Ibuki 2.jpg" by Petar Milošević
+  CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+  Source: https://commons.wikimedia.org/wiki/File:Mizuno_Wave_Ibuki_2.jpg
+
+trail-runner-newbalance.jpg
+  "New Balance 750v2.jpg" by Petar Milošević
+  CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/
+  Source: https://commons.wikimedia.org/wiki/File:New_Balance_750v2.jpg
+  Local copy resized to 1200px wide and recompressed as JPEG.
+
+The Commons images remain available under their respective licenses above.
+Brand/model references identify the source photographs only; they are not claims
+that SOLEVERSE is affiliated with those shoe manufacturers.

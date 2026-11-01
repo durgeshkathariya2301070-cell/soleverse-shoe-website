@@ -1,0 +1,37 @@
+{
+  "name": "soleverse",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SOLEVERSE — premium sneaker e-commerce website (Phases 1-7: storefront, 3D viewer, Supabase accounts, checkout, and secure admin dashboard)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test \"src/**/*.test.js\" \"scripts/**/*.test.js\"",
+    "check-assets": "node scripts/check-assets.js",
+    "fetch-model": "node scripts/fetch-model.js",
+    "generate-seed": "node scripts/generate-catalogue-seed.js",
+    "generate-catalogue-expansion": "node scripts/generate-catalogue-expansion.js",
+    "generate-catalogue-taxonomy": "node scripts/generate-catalogue-taxonomy.js",
+    "generate-catalogue-image-fixes": "node scripts/generate-catalogue-image-fixes.js"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.118.0",
+    "lucide-react": "^1.59.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
+  }
+}
