@@ -1,5 +1,6 @@
 import { supabase } from '../lib/supabaseClient.js'
 import { products as allSampleProducts, publicSampleProducts } from '../data/products.js'
+import { formatCatalogueRefreshError, getCatalogueErrorDetails } from '../utils/catalogueError.js'
 
 const staticById = new Map(allSampleProducts.map((product) => [product.id, product]))
 
@@ -42,7 +43,11 @@ export async function fetchPublicCatalogue() {
       .select('id, slug, name, price_inr, is_active, category, brand, sport, style, short_description, description, image_url, product_variants(color_id, color_label, color_hex, size, stock), product_images(image_url, alt_text, position)')
       .eq('is_active', true)
       .order('name')
-    if (error) return { products: publicSampleProducts, error: 'Could not refresh the database catalogue. Check admin access and apply catalogue migrations through 20261026000300_review_unverified_catalogue_products.sql.', source: 'sample' }
+    if (error) {
+      const details = getCatalogueErrorDetails(error)
+      console.error('[catalogue] Supabase catalogue query failed', details)
+      return { products: publicSampleProducts, error: formatCatalogueRefreshError(error), source: 'sample' }
+    }
 
     const mapped = (data ?? []).map((row) => {
       const original = staticById.get(row.id)
@@ -100,7 +105,8 @@ export async function fetchPublicCatalogue() {
       }
     })
     return { products: mapped, error: null, source: 'database' }
-  } catch {
-    return { products: publicSampleProducts, error: 'Could not connect to the database catalogue. Check your connection and try again.', source: 'sample' }
+  } catch (error) {
+    console.error('[catalogue] Catalogue refresh failed unexpectedly', getCatalogueErrorDetails(error))
+    return { products: publicSampleProducts, error: 'Could not load the database catalogue. Check the browser console for diagnostic details and try again.', source: 'sample' }
   }
 }
